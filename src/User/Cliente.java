@@ -12,7 +12,7 @@ import java.net.Socket;
 
 
 public class Cliente {
-    static CifradoCli cf = new CifradoCli();
+    static Server.Cifrado cf = new Server.Cifrado();
     static InetAddress ip = null;
     static String passw = null;
 

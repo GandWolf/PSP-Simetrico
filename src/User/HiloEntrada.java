@@ -16,9 +16,9 @@ public class HiloEntrada implements Runnable{
    private Socket sc;
    private BufferedReader IN;
 
-    CifradoCli cf;
+    Server.Cifrado cf;
 
-   public HiloEntrada(Socket con, CifradoCli cifrado) {
+   public HiloEntrada(Socket con, Server.Cifrado cifrado) {
        sc = con;
        cf = cifrado;
    }

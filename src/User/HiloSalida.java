@@ -17,9 +17,9 @@ public class HiloSalida implements Runnable{
    private PrintWriter OUT;
    private Scanner teclado;
 
-    CifradoCli cf;
+    Server.Cifrado cf;
 
-   public HiloSalida(Socket con, CifradoCli cifrado) {
+   public HiloSalida(Socket con, Server.Cifrado cifrado) {
         sc = con;
         cf = cifrado;
    }
